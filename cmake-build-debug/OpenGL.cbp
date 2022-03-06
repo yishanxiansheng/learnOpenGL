@@ -88,10 +88,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/fanshe/CLionProjects/OpenGL/DrawTriangles.cpp">
+		<Unit filename="/Users/fanshe/CLionProjects/OpenGL/DrawTexture.cpp">
+			<Option target="OpenGL"/>
+		</Unit>
+		<Unit filename="/Users/fanshe/CLionProjects/OpenGL/Shader.cpp">
+			<Option target="OpenGL"/>
+		</Unit>
+		<Unit filename="/Users/fanshe/CLionProjects/OpenGL/Shader.h">
+			<Option target="OpenGL"/>
+		</Unit>
+		<Unit filename="/Users/fanshe/CLionProjects/OpenGL/filesystem.h">
 			<Option target="OpenGL"/>
 		</Unit>
 		<Unit filename="/Users/fanshe/CLionProjects/OpenGL/glad.c">
+			<Option target="OpenGL"/>
+		</Unit>
+		<Unit filename="/Users/fanshe/CLionProjects/OpenGL/root_directory.h">
+			<Option target="OpenGL"/>
+		</Unit>
+		<Unit filename="/Users/fanshe/CLionProjects/OpenGL/stb_image.cpp">
+			<Option target="OpenGL"/>
+		</Unit>
+		<Unit filename="/Users/fanshe/CLionProjects/OpenGL/stb_image.h">
 			<Option target="OpenGL"/>
 		</Unit>
 		<Unit filename="/Users/fanshe/CLionProjects/OpenGL/CMakeLists.txt">

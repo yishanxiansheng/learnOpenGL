@@ -79,34 +79,64 @@ CMakeFiles/OpenGL.dir/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OpenGL.dir/glad.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fanshe/CLionProjects/OpenGL/glad.c -o CMakeFiles/OpenGL.dir/glad.c.s
 
-CMakeFiles/OpenGL.dir/DrawTriangles.cpp.o: CMakeFiles/OpenGL.dir/flags.make
-CMakeFiles/OpenGL.dir/DrawTriangles.cpp.o: ../DrawTriangles.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fanshe/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OpenGL.dir/DrawTriangles.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGL.dir/DrawTriangles.cpp.o -c /Users/fanshe/CLionProjects/OpenGL/DrawTriangles.cpp
+CMakeFiles/OpenGL.dir/DrawTexture.cpp.o: CMakeFiles/OpenGL.dir/flags.make
+CMakeFiles/OpenGL.dir/DrawTexture.cpp.o: ../DrawTexture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fanshe/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OpenGL.dir/DrawTexture.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGL.dir/DrawTexture.cpp.o -c /Users/fanshe/CLionProjects/OpenGL/DrawTexture.cpp
 
-CMakeFiles/OpenGL.dir/DrawTriangles.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGL.dir/DrawTriangles.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/fanshe/CLionProjects/OpenGL/DrawTriangles.cpp > CMakeFiles/OpenGL.dir/DrawTriangles.cpp.i
+CMakeFiles/OpenGL.dir/DrawTexture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGL.dir/DrawTexture.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/fanshe/CLionProjects/OpenGL/DrawTexture.cpp > CMakeFiles/OpenGL.dir/DrawTexture.cpp.i
 
-CMakeFiles/OpenGL.dir/DrawTriangles.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL.dir/DrawTriangles.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/fanshe/CLionProjects/OpenGL/DrawTriangles.cpp -o CMakeFiles/OpenGL.dir/DrawTriangles.cpp.s
+CMakeFiles/OpenGL.dir/DrawTexture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL.dir/DrawTexture.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/fanshe/CLionProjects/OpenGL/DrawTexture.cpp -o CMakeFiles/OpenGL.dir/DrawTexture.cpp.s
+
+CMakeFiles/OpenGL.dir/stb_image.cpp.o: CMakeFiles/OpenGL.dir/flags.make
+CMakeFiles/OpenGL.dir/stb_image.cpp.o: ../stb_image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fanshe/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/OpenGL.dir/stb_image.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGL.dir/stb_image.cpp.o -c /Users/fanshe/CLionProjects/OpenGL/stb_image.cpp
+
+CMakeFiles/OpenGL.dir/stb_image.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGL.dir/stb_image.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/fanshe/CLionProjects/OpenGL/stb_image.cpp > CMakeFiles/OpenGL.dir/stb_image.cpp.i
+
+CMakeFiles/OpenGL.dir/stb_image.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL.dir/stb_image.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/fanshe/CLionProjects/OpenGL/stb_image.cpp -o CMakeFiles/OpenGL.dir/stb_image.cpp.s
+
+CMakeFiles/OpenGL.dir/Shader.cpp.o: CMakeFiles/OpenGL.dir/flags.make
+CMakeFiles/OpenGL.dir/Shader.cpp.o: ../Shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fanshe/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/OpenGL.dir/Shader.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGL.dir/Shader.cpp.o -c /Users/fanshe/CLionProjects/OpenGL/Shader.cpp
+
+CMakeFiles/OpenGL.dir/Shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGL.dir/Shader.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/fanshe/CLionProjects/OpenGL/Shader.cpp > CMakeFiles/OpenGL.dir/Shader.cpp.i
+
+CMakeFiles/OpenGL.dir/Shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL.dir/Shader.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/fanshe/CLionProjects/OpenGL/Shader.cpp -o CMakeFiles/OpenGL.dir/Shader.cpp.s
 
 # Object files for target OpenGL
 OpenGL_OBJECTS = \
 "CMakeFiles/OpenGL.dir/glad.c.o" \
-"CMakeFiles/OpenGL.dir/DrawTriangles.cpp.o"
+"CMakeFiles/OpenGL.dir/DrawTexture.cpp.o" \
+"CMakeFiles/OpenGL.dir/stb_image.cpp.o" \
+"CMakeFiles/OpenGL.dir/Shader.cpp.o"
 
 # External object files for target OpenGL
 OpenGL_EXTERNAL_OBJECTS =
 
 OpenGL: CMakeFiles/OpenGL.dir/glad.c.o
-OpenGL: CMakeFiles/OpenGL.dir/DrawTriangles.cpp.o
+OpenGL: CMakeFiles/OpenGL.dir/DrawTexture.cpp.o
+OpenGL: CMakeFiles/OpenGL.dir/stb_image.cpp.o
+OpenGL: CMakeFiles/OpenGL.dir/Shader.cpp.o
 OpenGL: CMakeFiles/OpenGL.dir/build.make
 OpenGL: /usr/local/Cellar/glew/2.2.0_1/lib/libGLEW.2.2.0.dylib
 OpenGL: /usr/local/Cellar/glfw/3.3.6/lib/libglfw.3.3.dylib
 OpenGL: CMakeFiles/OpenGL.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/fanshe/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable OpenGL"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/fanshe/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable OpenGL"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OpenGL.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

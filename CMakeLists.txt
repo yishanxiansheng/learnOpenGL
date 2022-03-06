@@ -19,7 +19,8 @@ link_libraries(${OPENGL} ${GLEW_LINK} ${GLFW_LINK})
 
 #设置要编译的c/cpp文件到可执行文件中，该exe包含两个文件glad.c,main.cpp,生成SmartPointTest
 #set(SOURCE_FILES "glad.c" "main.cpp" DrawTriangles.cpp)
-set(SOURCE_FILES "glad.c" "DrawTriangles.cpp")
+#set(SOURCE_FILES "glad.c" "DrawTriangles.cpp" DrawTexture.cpp)
+set(SOURCE_FILES "glad.c" "DrawTexture.cpp" DrawTexture.cpp stb_image.cpp Shader.cpp Shader.h filesystem.h root_directory.h)
 add_executable(OpenGL ${SOURCE_FILES})
 
 # mac下这步很重要

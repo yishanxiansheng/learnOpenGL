@@ -129,29 +129,53 @@ OpenGL/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/build
 .PHONY : OpenGL/fast
 
-DrawTriangles.o: DrawTriangles.cpp.o
-.PHONY : DrawTriangles.o
+DrawTexture.o: DrawTexture.cpp.o
+.PHONY : DrawTexture.o
 
 # target to build an object file
-DrawTriangles.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/DrawTriangles.cpp.o
-.PHONY : DrawTriangles.cpp.o
+DrawTexture.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/DrawTexture.cpp.o
+.PHONY : DrawTexture.cpp.o
 
-DrawTriangles.i: DrawTriangles.cpp.i
-.PHONY : DrawTriangles.i
+DrawTexture.i: DrawTexture.cpp.i
+.PHONY : DrawTexture.i
 
 # target to preprocess a source file
-DrawTriangles.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/DrawTriangles.cpp.i
-.PHONY : DrawTriangles.cpp.i
+DrawTexture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/DrawTexture.cpp.i
+.PHONY : DrawTexture.cpp.i
 
-DrawTriangles.s: DrawTriangles.cpp.s
-.PHONY : DrawTriangles.s
+DrawTexture.s: DrawTexture.cpp.s
+.PHONY : DrawTexture.s
 
 # target to generate assembly for a file
-DrawTriangles.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/DrawTriangles.cpp.s
-.PHONY : DrawTriangles.cpp.s
+DrawTexture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/DrawTexture.cpp.s
+.PHONY : DrawTexture.cpp.s
+
+Shader.o: Shader.cpp.o
+.PHONY : Shader.o
+
+# target to build an object file
+Shader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/Shader.cpp.o
+.PHONY : Shader.cpp.o
+
+Shader.i: Shader.cpp.i
+.PHONY : Shader.i
+
+# target to preprocess a source file
+Shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/Shader.cpp.i
+.PHONY : Shader.cpp.i
+
+Shader.s: Shader.cpp.s
+.PHONY : Shader.s
+
+# target to generate assembly for a file
+Shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/Shader.cpp.s
+.PHONY : Shader.cpp.s
 
 glad.o: glad.c.o
 .PHONY : glad.o
@@ -177,6 +201,30 @@ glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/glad.c.s
 .PHONY : glad.c.s
 
+stb_image.o: stb_image.cpp.o
+.PHONY : stb_image.o
+
+# target to build an object file
+stb_image.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/stb_image.cpp.o
+.PHONY : stb_image.cpp.o
+
+stb_image.i: stb_image.cpp.i
+.PHONY : stb_image.i
+
+# target to preprocess a source file
+stb_image.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/stb_image.cpp.i
+.PHONY : stb_image.cpp.i
+
+stb_image.s: stb_image.cpp.s
+.PHONY : stb_image.s
+
+# target to generate assembly for a file
+stb_image.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/stb_image.cpp.s
+.PHONY : stb_image.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +234,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... OpenGL"
-	@echo "... DrawTriangles.o"
-	@echo "... DrawTriangles.i"
-	@echo "... DrawTriangles.s"
+	@echo "... DrawTexture.o"
+	@echo "... DrawTexture.i"
+	@echo "... DrawTexture.s"
+	@echo "... Shader.o"
+	@echo "... Shader.i"
+	@echo "... Shader.s"
 	@echo "... glad.o"
 	@echo "... glad.i"
 	@echo "... glad.s"
+	@echo "... stb_image.o"
+	@echo "... stb_image.i"
+	@echo "... stb_image.s"
 .PHONY : help
 
 

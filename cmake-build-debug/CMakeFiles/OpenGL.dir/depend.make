@@ -5,8 +5,19 @@ CMakeFiles/OpenGL.dir/glad.c.o: \
  ../glad.c \
  /usr/local/include/KHR/khrplatform.h \
  /usr/local/include/glad/glad.h
-CMakeFiles/OpenGL.dir/DrawTriangles.cpp.o: \
- ../DrawTriangles.cpp \
+CMakeFiles/OpenGL.dir/DrawTexture.cpp.o: \
+ ../DrawTexture.cpp \
+ ../Shader.h \
+ ../filesystem.h \
+ ../root_directory.h \
+ ../stb_image.h \
  /usr/local/Cellar/glfw/3.3.6/include/GLFW/glfw3.h \
  /usr/local/include/KHR/khrplatform.h \
  /usr/local/include/glad/glad.h
+CMakeFiles/OpenGL.dir/Shader.cpp.o: \
+ ../Shader.cpp \
+ /usr/local/include/KHR/khrplatform.h \
+ /usr/local/include/glad/glad.h
+CMakeFiles/OpenGL.dir/stb_image.cpp.o: \
+ ../stb_image.cpp \
+ ../stb_image.h

@@ -21,7 +21,9 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "/usr/local/include/KHR"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/fanshe/CLionProjects/OpenGL/DrawTriangles.cpp" "/Users/fanshe/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles/OpenGL.dir/DrawTriangles.cpp.o"
+  "/Users/fanshe/CLionProjects/OpenGL/DrawTexture.cpp" "/Users/fanshe/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles/OpenGL.dir/DrawTexture.cpp.o"
+  "/Users/fanshe/CLionProjects/OpenGL/Shader.cpp" "/Users/fanshe/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles/OpenGL.dir/Shader.cpp.o"
+  "/Users/fanshe/CLionProjects/OpenGL/stb_image.cpp" "/Users/fanshe/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles/OpenGL.dir/stb_image.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
